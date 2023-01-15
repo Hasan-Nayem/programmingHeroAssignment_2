@@ -5,6 +5,7 @@
 .container{
     margin: 0 auto;
     max-width: 1440px;
+    padding: 0 15px;
 }
 .btn{
     color: white;
@@ -51,7 +52,7 @@
 .title{
     font-weight: 700;
     font-size: 64px;
-    line-height: 75px;
+    /* line-height: 75px; */
     text-align: center;
     color: #131313;
     margin: 0px 75px 30px 75px;
@@ -70,4 +71,123 @@
 }
 .hero-image img{
     width: 75%;
+    padding-bottom: 25px;
+}
+.quick-list{
+    margin-top: 85px;
+}
+.quick-list-content{
+    display: flex;
+    align-items: center;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.quick-list-info{
+    
+margin-left: 75px;
+}
+.info-title{
+    
+font-weight: 700;
+    
+font-size: 45px;
+    
+line-height: 53px;
+
+/* Dark 03 */
+    
+width: 80%;
+    
+color: #131313;
+    
+margin-bottom: 25px;
+}
+.quick-list-text-1{
+    
+color: #727272;
+}
+.quick-list-text-2{
+
+color: #FF900E;
+}
+.quick-list-desc{
+
+font-weight: 400;
+
+font-size: 16px;
+
+line-height: 26px;
+/* or 162% */
+
+
+/* Dark 03 */
+
+color: #727272;
+
+width: 80%;
+
+margin-bottom: 30px;
+}
+.quick-feature-btn{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF900E;
+    text-decoration: none;
+    padding: 17px 25px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.feature{
+    margin-top: 130px;
+}
+.feature-content{
+    display: flex;
+    justify-content: space-between;
+}
+/* .feature-texts{
+    width: 75%;
+} */
+.feature-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    width: 65%;
+    padding-left: 25px;
+    /* text-align: center; */
+}
+.feature-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 94%;
+    margin: 30px 0;
+}
+.feature-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 25px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.feature-card-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.feature-card-description{
+    margin: 10px 0 5px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 95%;
 }

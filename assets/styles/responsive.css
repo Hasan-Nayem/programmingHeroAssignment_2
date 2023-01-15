@@ -1,0 +1,97 @@
+/* Reaponsive Design */
+@media screen and (max-width: 576px){
+    .nav-contents{
+        justify-content: space-between;
+        padding: 25px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-title{
+        margin-bottom:10px;
+        font-size: 35px;
+
+    }
+    .title{
+        margin: 0;
+        padding-bottom: 20px;
+        font-size: 55px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .text{
+        
+font-size: 15px;
+    }
+    .hero-image img{
+        width: 100%;
+    }
+    .nav-contents ul li a{       
+        font-size: 14px;
+        padding: 0 25px 0 0;
+    }
+    .btn{
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        background-color: #FF900E;
+        text-decoration: none;
+        padding: 16px 10px;
+        border-radius: 7px;
+        margin: 15px;
+    }
+    .img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .quick-list-content{
+        display: flex;      
+        flex-direction: column;
+    }
+    .quick-list{  
+        margin-top: 5px;
+    }
+    .quick-list-info{
+
+text-align: center;
+
+}
+    .info-title{
+
+font-size: 30px;
+
+width: 83%;
+
+margin-top: 10px;
+
+margin-bottom: 10px;
+}
+.quick-list-desc{
+    
+width: 85%;
+    
+font-size: 14px;
+}
+    .quick-feature-btn{
+        
+/* text-align: center; */
+        
+color: white;
+        
+font-weight: 400;
+        
+font-size: 15px;
+        
+background-color: #FF900E;
+        
+text-decoration: none;
+        
+padding: 15px 10px;
+        
+border-radius: 7px;
+        
+margin-top: 25px;
+    }
+}
+
